@@ -1,0 +1,125 @@
+body {
+	background-color: #b0c4de;
+	color: #808080;
+	Width: 1190px;
+	height: 1190px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+}
+.mainTitle {
+	Background-color: #b0c4de;
+	color: #808080;
+	width: 1190px;
+	height: 250px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+}
+.shortDescription {
+	background-color: #b0c4de;
+	color: #808080;
+	font-weight: 350;
+	font-family: sans-serif;
+	font-style: verdana;
+	width: 1190px;
+	height: 150px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+}
+.topic1Title {
+	background-color: #b0c4de;
+	color: #808080;
+	font-weight: 450;
+	font-family: sans-serif;
+	font-style: verdana;
+	width: 1190px;
+	height: 200px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+	bottom: 300px;
+}
+.topic1Para {
+	Background-color: #b0c4de;
+	color: #808080;
+	font-weight: 350;
+	font-family: sans-serif;
+	font-style: verdana;
+	width: 1190px;
+	height: 300px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+}
+.topic2Title {
+	background-color: #b0c4de;
+	color: #808080;
+	font-weight: 450;
+	font-family: sans-serif;
+	font-style: verdana;
+	width: 1190px;
+	height: 120px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+}
+.topic2Para {
+	background-color: #b0c4de;
+	color: #808080;
+	font-weight: 350;
+	font-family: sans-serif;
+	font-style: verdana;
+	width: 1190px;
+	height: 300px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+}
+.conclusion {
+	background-color: #b0c4de;
+	color: #808080;
+	font-weight: 450;
+	font-family: sans-serif;
+	font-style: verdana;
+	width: 1190px;
+	height: 120px;
+	padding: 10px;
+	border: 0px solid #808080;
+	margin: 1px;
+	position: relative;
+}
+.flex-containerMainTitle-Topic1Title {
+	display: block;
+	/*This centers the text horizontally*/
+	justify-content: center;
+	
+	/*This centers the text vertically*/
+	align-items: center;
+	
+	width: 1190px;
+	height: 300px;
+	color: #808080;
+	font-size: 1.2rem;
+	background: #b0c4de;
+}
+.flex-containerTopic1Para-conclusion {
+	display: block;
+	
+	justify-content: center;
+	
+	align-items: center;
+	
+	width: 1190px;
+	height: 300px;
+	color:#808080;
+	font-size: 1.2rem;
+	background: #b0c4de;
+}
